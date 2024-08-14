@@ -45,7 +45,7 @@ func TestConfig_CheckConfig(t *testing.T) {
 					},
 				},
 				Distributor: distributor.Config{
-					LogReceivedSpans: distributor.LogReceivedSpansConfig{
+					LogReceivedSpans: distributor.LogSpansConfig{
 						Enabled: true,
 					},
 				},

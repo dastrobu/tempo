@@ -266,7 +266,7 @@ var (
 		Explain: fmt.Sprintf("default=%d", tempodb.DefaultBlocklistPollConcurrency),
 	}
 	warnLogReceivedTraces = ConfigWarning{
-		Message: "Span logging is enabled. This is for debuging only and not recommended for production deployments.",
+		Message: "Span logging is enabled. This is for debugging only and not recommended for production deployments.",
 	}
 	warnStorageTraceBackendLocal = ConfigWarning{
 		Message: "Local backend will not correctly retrieve traces with a distributed deployment unless all components have access to the same disk. You should probably be using object storage as a backend.",
